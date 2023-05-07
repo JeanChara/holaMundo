@@ -9,6 +9,8 @@ public class holaMundo {
 		System.out.println("Ingrese su nombre.");
 		String nombre = scan.next();
 		
+		System.out.println("Bienvenido(a) al curso "+nombre+"!");
+		scan.close();
 	}
 
 }
